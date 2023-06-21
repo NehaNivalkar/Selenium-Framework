@@ -1,0 +1,170 @@
+[INFO ] 2023-06-13 16:50:59.115 [main] BaseClass - URL is opening
+[INFO ] 2023-06-13 16:50:59.322 [main] BaseClass - Entered Username
+[INFO ] 2023-06-13 16:50:59.426 [main] BaseClass - Entered Password
+[INFO ] 2023-06-13 16:51:01.333 [main] BaseClass - Login test passed
+[INFO ] 2023-06-13 16:54:06.183 [main] BaseClass - URL is opening
+[INFO ] 2023-06-13 16:54:06.357 [main] BaseClass - Entered Username
+[INFO ] 2023-06-13 16:54:06.451 [main] BaseClass - Entered Password
+[INFO ] 2023-06-13 16:54:08.146 [main] BaseClass - Login test passed
+[INFO ] 2023-06-13 17:04:17.965 [main] seliumframework - URL is opening
+[INFO ] 2023-06-13 17:04:18.144 [main] seliumframework - Entered Username
+[INFO ] 2023-06-13 17:04:18.233 [main] seliumframework - Entered Password
+[INFO ] 2023-06-13 17:04:19.964 [main] seliumframework - Login test passed
+[INFO ] 2023-06-14 12:42:38.001 [main] seliumframework - URL is opening
+[INFO ] 2023-06-14 12:42:38.268 [main] seliumframework - Entered Username
+[INFO ] 2023-06-14 12:42:38.379 [main] seliumframework - Entered Password
+[INFO ] 2023-06-14 12:42:39.990 [main] seliumframework - Login test passed
+[INFO ] 2023-06-14 18:47:42.320 [main] seliumframework - URL is opening
+[INFO ] 2023-06-14 18:47:42.445 [main] seliumframework - Entered Username
+[INFO ] 2023-06-14 18:47:42.521 [main] seliumframework - Entered Password
+[INFO ] 2023-06-14 18:47:45.087 [main] seliumframework - Login test passed
+[INFO ] 2023-06-14 18:51:06.002 [main] seliumframework - URL is opening
+[INFO ] 2023-06-14 18:51:06.108 [main] seliumframework - Entered Username
+[INFO ] 2023-06-14 18:51:06.209 [main] seliumframework - Entered Password
+[INFO ] 2023-06-14 18:51:07.572 [main] seliumframework - Login test passed
+[INFO ] 2023-06-14 19:14:31.243 [main] seliumframework - URL is opening
+[INFO ] 2023-06-14 19:14:31.383 [main] seliumframework - Entered Username
+[INFO ] 2023-06-14 19:14:31.454 [main] seliumframework - Entered Password
+[INFO ] 2023-06-14 19:14:32.613 [main] seliumframework - Login test passed
+[INFO ] 2023-06-14 19:47:55.073 [main] seliumframework - URL is opening
+[INFO ] 2023-06-14 19:47:55.233 [main] seliumframework - Entered Username
+[INFO ] 2023-06-14 19:47:55.301 [main] seliumframework - Entered Password
+[INFO ] 2023-06-14 19:47:56.478 [main] seliumframework - Login test passed
+[INFO ] 2023-06-14 20:40:46.857 [main] seliumframework - URL is opening
+[INFO ] 2023-06-14 20:40:47.165 [main] seliumframework - Entered Username
+[INFO ] 2023-06-14 20:40:47.258 [main] seliumframework - Entered Password
+[INFO ] 2023-06-14 20:40:48.535 [main] seliumframework - Login test passed
+[INFO ] 2023-06-15 21:57:44.111 [main] seliumframework - URL is opening
+[INFO ] 2023-06-15 21:57:44.324 [main] seliumframework - Entered Username
+[INFO ] 2023-06-15 21:57:44.447 [main] seliumframework - Entered Password
+[INFO ] 2023-06-15 21:57:49.590 [main] seliumframework - Login test passed
+[INFO ] 2023-06-15 22:04:06.736 [main] seliumframework - URL is opening
+[INFO ] 2023-06-15 22:04:06.954 [main] seliumframework - Entered Username
+[INFO ] 2023-06-15 22:04:07.096 [main] seliumframework - Entered Password
+[INFO ] 2023-06-15 22:04:09.663 [main] seliumframework - Login test passed
+[INFO ] 2023-06-15 22:09:01.709 [main] seliumframework - URL is opening
+[INFO ] 2023-06-15 22:09:01.990 [main] seliumframework - Entered Username
+[INFO ] 2023-06-15 22:09:02.122 [main] seliumframework - Entered Password
+[INFO ] 2023-06-15 22:09:15.131 [main] seliumframework - Login test passed
+[INFO ] 2023-06-15 22:17:04.291 [main] seliumframework - URL is opening
+[INFO ] 2023-06-15 22:17:04.515 [main] seliumframework - Entered Username
+[INFO ] 2023-06-15 22:17:04.622 [main] seliumframework - Entered Password
+[INFO ] 2023-06-15 22:17:07.496 [main] seliumframework - Login test passed
+[INFO ] 2023-06-15 22:20:43.802 [main] seliumframework - URL is opening
+[INFO ] 2023-06-15 22:20:43.990 [main] seliumframework - Entered Username
+[INFO ] 2023-06-15 22:20:44.107 [main] seliumframework - Entered Password
+[INFO ] 2023-06-15 22:20:53.331 [main] seliumframework - Login test passed
+[INFO ] 2023-06-16 12:13:50.770 [main] seliumframework - URL is opening
+[INFO ] 2023-06-16 12:13:50.932 [main] seliumframework - Entered Username
+[INFO ] 2023-06-16 12:13:51.037 [main] seliumframework - Entered Password
+[INFO ] 2023-06-16 14:18:07.839 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:18:08.076 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:18:09.286 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:18:11.261 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:18:11.466 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:18:13.347 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:18:13.557 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:18:15.817 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:18:17.829 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:18:18.116 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:24:03.723 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:24:03.789 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:24:09.552 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:24:16.081 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:24:16.338 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:24:21.386 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:24:21.692 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:24:25.855 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:24:32.483 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:24:32.560 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:29:35.259 [main] seliumframework - URL is opening
+[INFO ] 2023-06-16 14:29:35.423 [main] seliumframework - Entered Username
+[INFO ] 2023-06-16 14:29:35.516 [main] seliumframework - Entered Password
+[INFO ] 2023-06-16 14:29:45.814 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:29:45.932 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:29:50.148 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:29:56.656 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:29:56.721 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:30:02.796 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:30:02.846 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:30:06.934 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:30:14.432 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:30:14.489 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:31:08.681 [main] seliumframework - URL is opening
+[INFO ] 2023-06-16 14:31:08.802 [main] seliumframework - Entered Username
+[INFO ] 2023-06-16 14:31:08.883 [main] seliumframework - Entered Password
+[INFO ] 2023-06-16 14:31:11.037 [main] seliumframework - Login test passed
+[INFO ] 2023-06-16 14:31:18.483 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:31:18.577 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:31:22.870 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:31:28.355 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:31:28.656 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:31:35.161 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:31:35.520 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:31:39.421 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:31:46.882 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:31:47.142 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:37:28.729 [main] seliumframework - URL is opening
+[INFO ] 2023-06-16 14:37:28.841 [main] seliumframework - Entered Username
+[INFO ] 2023-06-16 14:37:28.909 [main] seliumframework - Entered Password
+[INFO ] 2023-06-16 14:37:30.529 [main] seliumframework - Login test passed
+[INFO ] 2023-06-16 14:38:54.329 [main] seliumframework - URL is opening
+[INFO ] 2023-06-16 14:38:54.480 [main] seliumframework - Entered Username
+[INFO ] 2023-06-16 14:38:54.562 [main] seliumframework - Entered Password
+[INFO ] 2023-06-16 14:38:55.968 [main] seliumframework - Login test passed
+[INFO ] 2023-06-16 14:39:57.361 [main] seliumframework - URL is opening
+[INFO ] 2023-06-16 14:39:57.478 [main] seliumframework - Entered Username
+[INFO ] 2023-06-16 14:39:57.556 [main] seliumframework - Entered Password
+[INFO ] 2023-06-16 14:40:00.219 [main] seliumframework - Login test passed
+[INFO ] 2023-06-16 14:40:08.202 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:40:08.303 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:40:13.710 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:40:19.391 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:40:19.470 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:40:25.161 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:40:25.963 [main] seliumframework - Password is provided
+[INFO ] 2023-06-16 14:40:29.958 [main] seliumframework - Login passed
+[INFO ] 2023-06-16 14:40:37.193 [main] seliumframework - Username is provided
+[INFO ] 2023-06-16 14:40:37.404 [main] seliumframework - Password is provided
+[INFO ] 2023-06-18 12:29:47.982 [main] seliumframework - Username is provided
+[INFO ] 2023-06-18 12:29:48.085 [main] seliumframework - Password is provided
+[INFO ] 2023-06-18 12:29:53.045 [main] seliumframework - Login passed
+[INFO ] 2023-06-18 12:29:59.794 [main] seliumframework - Username is provided
+[INFO ] 2023-06-18 12:29:59.891 [main] seliumframework - Password is provided
+[INFO ] 2023-06-18 12:30:05.964 [main] seliumframework - Username is provided
+[INFO ] 2023-06-18 12:30:06.283 [main] seliumframework - Password is provided
+[INFO ] 2023-06-18 12:30:11.175 [main] seliumframework - Login passed
+[INFO ] 2023-06-18 12:30:17.913 [main] seliumframework - Username is provided
+[INFO ] 2023-06-18 12:30:18.000 [main] seliumframework - Password is provided
+[INFO ] 2023-06-18 12:30:42.397 [main] seliumframework - URL is opening
+[INFO ] 2023-06-18 12:30:42.526 [main] seliumframework - Entered Username
+[INFO ] 2023-06-18 12:30:42.622 [main] seliumframework - Entered Password
+[INFO ] 2023-06-18 12:30:45.816 [main] seliumframework - Login test passed
+[INFO ] 2023-06-19 10:39:30.638 [main] seliumframework - Username is provided
+[INFO ] 2023-06-19 10:39:30.771 [main] seliumframework - Password is provided
+[INFO ] 2023-06-19 10:39:35.637 [main] seliumframework - Login passed
+[INFO ] 2023-06-19 10:39:42.111 [main] seliumframework - Username is provided
+[INFO ] 2023-06-19 10:39:42.216 [main] seliumframework - Password is provided
+[INFO ] 2023-06-19 10:39:48.002 [main] seliumframework - Username is provided
+[INFO ] 2023-06-19 10:39:48.118 [main] seliumframework - Password is provided
+[INFO ] 2023-06-19 10:39:52.073 [main] seliumframework - Login passed
+[INFO ] 2023-06-19 10:39:58.560 [main] seliumframework - Username is provided
+[INFO ] 2023-06-19 10:39:58.655 [main] seliumframework - Password is provided
+[INFO ] 2023-06-19 10:40:08.603 [main] seliumframework - URL is opening
+[INFO ] 2023-06-19 10:40:08.740 [main] seliumframework - Entered Username
+[INFO ] 2023-06-19 10:40:08.848 [main] seliumframework - Entered Password
+[INFO ] 2023-06-19 10:40:10.078 [main] seliumframework - Login test passed
+[INFO ] 2023-06-19 14:33:33.195 [main] seliumframework - URL is opening
+[INFO ] 2023-06-19 14:33:33.510 [main] seliumframework - Entered Username
+[INFO ] 2023-06-19 14:33:33.598 [main] seliumframework - Entered Password
+[INFO ] 2023-06-19 14:33:34.940 [main] seliumframework - Login test passed
+[INFO ] 2023-06-19 14:33:40.438 [main] seliumframework - Username is provided
+[INFO ] 2023-06-19 14:33:40.544 [main] seliumframework - Password is provided
+[INFO ] 2023-06-19 14:33:44.698 [main] seliumframework - Login passed
+[INFO ] 2023-06-19 14:33:50.727 [main] seliumframework - Username is provided
+[INFO ] 2023-06-19 14:33:50.917 [main] seliumframework - Password is provided
+[INFO ] 2023-06-19 14:33:56.246 [main] seliumframework - Username is provided
+[INFO ] 2023-06-19 14:33:56.476 [main] seliumframework - Password is provided
+[INFO ] 2023-06-19 14:34:00.687 [main] seliumframework - Login passed
+[INFO ] 2023-06-19 14:34:06.978 [main] seliumframework - Username is provided
+[INFO ] 2023-06-19 14:34:07.057 [main] seliumframework - Password is provided
