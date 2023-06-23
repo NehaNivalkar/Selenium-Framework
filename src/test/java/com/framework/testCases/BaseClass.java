@@ -6,15 +6,20 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -64,14 +69,29 @@ public class BaseClass {
 	{
 		driver.quit();
 	}
-	public void captureScreen(WebDriver driver, String tname)throws IOException
+	public void captureScreen(WebDriver driver, String tname) throws IOException {
+	    TakesScreenshot ts = (TakesScreenshot) driver;
+	    File source = ts.getScreenshotAs(OutputType.FILE);
+	    String screenshotPath = System.getProperty("user.dir") + "/Screenshots/" + tname + ".png";
+	    File target = new File(screenshotPath);
+	    FileUtils.copyFile(source, target);
+	    System.out.println("Screenshot taken and saved at: " + screenshotPath);
+	    logger.info("Screenshot taken and saved at: " + screenshotPath);
+	}
+
+	
+	public String randomstring()
 	{
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File source = ts.getScreenshotAs(OutputType.FILE);
-		File target = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+".png");
-		FileUtils.copyFile(source, target);
-		System.out.println("Screenshot Taken");
+		String generatedstring = RandomStringUtils.randomAlphabetic(5);
+		return(generatedstring);
 	}
 	
+	public String randomNum()
+	{
+		String generatedstring2 = RandomStringUtils.randomNumeric(5);
+		return(generatedstring2);
+	}
+
+		
 }
 

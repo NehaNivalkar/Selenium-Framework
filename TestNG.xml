@@ -14,6 +14,8 @@
     <classes>
       <class name="com.framework.testCases.TC_LoginTest_001" />
        <class name="com.framework.testCases.TC_LoginDDT_002" />
+        <class name="com.framework.testCases.TC_AddCustomerTest_003" />
+       
     </classes>
   </test>
 </suite>

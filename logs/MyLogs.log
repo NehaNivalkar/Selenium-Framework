@@ -169,3 +169,124 @@
 [INFO ] 2023-06-19 14:34:06.978 [main] seliumframework - Username is provided
 [INFO ] 2023-06-19 14:34:07.057 [main] seliumframework - Password is provided
 [INFO ] 2023-06-21 21:34:46.083 [main] seliumframework - URL is opening
+[INFO ] 2023-06-22 19:50:46.730 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 19:50:46.823 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 19:50:51.096 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 19:51:07.938 [main] seliumframework - Validation Started
+[INFO ] 2023-06-22 19:51:07.986 [main] seliumframework - TestCase for adding new customer failed
+[INFO ] 2023-06-22 19:58:38.986 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 19:58:39.099 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 19:58:44.004 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 19:58:58.126 [main] seliumframework - Validation Started
+[INFO ] 2023-06-22 20:11:16.766 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:11:16.872 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:11:21.811 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:12:27.024 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:12:27.207 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:12:31.679 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:12:44.950 [main] seliumframework - Validation Started
+[INFO ] 2023-06-22 20:12:44.974 [main] seliumframework - TestCase for adding new customer passed
+[INFO ] 2023-06-22 20:19:40.314 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:19:40.415 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:19:44.798 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:20:05.527 [main] seliumframework - Validation Started
+[INFO ] 2023-06-22 20:20:05.578 [main] seliumframework - TestCase for adding new customer passed
+[INFO ] 2023-06-22 20:21:23.319 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:21:23.414 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:21:30.352 [main] seliumframework - Google Ad dismissed
+[INFO ] 2023-06-22 20:21:30.536 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:22:54.490 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:22:54.617 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:22:59.077 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:23:41.665 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:23:41.774 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:23:46.078 [main] seliumframework - Google Ad dismissed
+[INFO ] 2023-06-22 20:23:46.210 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:26:07.119 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:26:07.222 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:26:11.532 [main] seliumframework - Google Ad dismissed
+[INFO ] 2023-06-22 20:26:11.657 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:36:32.537 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:36:32.653 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:36:37.342 [main] seliumframework - Google Ad dismissed
+[INFO ] 2023-06-22 20:36:37.449 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:39:15.646 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:39:15.759 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:39:19.980 [main] seliumframework - Google Ad dismissed
+[INFO ] 2023-06-22 20:39:20.101 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-22 20:39:35.911 [main] seliumframework - Validation Started
+[INFO ] 2023-06-22 20:39:35.939 [main] seliumframework - TestCase for adding new customer passed
+[INFO ] 2023-06-22 20:54:04.439 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:54:04.563 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:55:47.151 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:55:47.266 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 20:59:48.101 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 20:59:48.293 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 21:25:01.175 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 21:25:01.329 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 21:28:48.121 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 21:28:48.232 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 21:34:14.143 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 21:34:14.246 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 21:36:40.284 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 21:36:40.355 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 21:42:09.888 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 21:42:09.974 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 21:51:47.418 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 21:51:47.494 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 21:55:20.732 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 21:55:20.816 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:08:57.494 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:08:57.561 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:17:08.011 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:17:08.084 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:18:26.254 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:18:26.342 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:19:48.705 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:19:48.764 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:29:58.532 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:29:58.595 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:34:49.382 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:34:49.445 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:42:09.735 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:42:09.824 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:46:30.972 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:46:31.050 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:51:35.107 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-22 22:51:35.180 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-22 22:51:54.429 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-23 10:56:59.429 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-23 10:56:59.671 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-23 10:57:36.152 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-23 10:57:36.244 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-23 10:57:45.510 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-23 10:57:54.292 [main] seliumframework - Validation Started
+[INFO ] 2023-06-23 10:57:54.309 [main] seliumframework - TestCase for adding new customer passed
+[INFO ] 2023-06-23 11:04:35.677 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-23 11:04:35.820 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-23 11:08:49.692 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-23 11:08:49.778 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-23 15:42:13.568 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-23 15:42:13.690 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-23 15:42:29.858 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-23 15:42:41.095 [main] seliumframework - Validation Started
+[INFO ] 2023-06-23 15:42:41.132 [main] seliumframework - TestCase for adding new customer passed
+[INFO ] 2023-06-23 15:46:18.033 [main] seliumframework - URL is opening
+[INFO ] 2023-06-23 15:46:18.280 [main] seliumframework - Entered Username
+[INFO ] 2023-06-23 15:46:18.441 [main] seliumframework - Entered Password
+[INFO ] 2023-06-23 15:46:19.902 [main] seliumframework - Login test passed
+[INFO ] 2023-06-23 15:46:31.173 [main] seliumframework - Username is provided
+[INFO ] 2023-06-23 15:46:31.286 [main] seliumframework - Password is provided
+[INFO ] 2023-06-23 15:46:35.651 [main] seliumframework - Login passed
+[INFO ] 2023-06-23 15:46:43.498 [main] seliumframework - Username is provided
+[INFO ] 2023-06-23 15:46:43.592 [main] seliumframework - Password is provided
+[INFO ] 2023-06-23 15:46:51.021 [main] seliumframework - Username is provided
+[INFO ] 2023-06-23 15:46:51.137 [main] seliumframework - Password is provided
+[INFO ] 2023-06-23 15:46:57.275 [main] seliumframework - Login passed
+[INFO ] 2023-06-23 15:47:03.625 [main] seliumframework - Username is provided
+[INFO ] 2023-06-23 15:47:03.936 [main] seliumframework - Password is provided
+[INFO ] 2023-06-23 15:47:15.406 [main] seliumframework - UserName for addcustomer is provided
+[INFO ] 2023-06-23 15:47:15.544 [main] seliumframework - Password for addcustomer is provided
+[INFO ] 2023-06-23 15:47:30.803 [main] seliumframework - Providing customer details...
+[INFO ] 2023-06-23 15:47:39.717 [main] seliumframework - Validation Started
+[INFO ] 2023-06-23 15:47:39.755 [main] seliumframework - TestCase for adding new customer passed

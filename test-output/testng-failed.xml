@@ -11,16 +11,9 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="loginDDT" invocation-numbers="0 1 2 3"/>
+          <include name="loginDDT" invocation-numbers="1 3"/>
         </methods>
       </class> <!-- com.framework.testCases.TC_LoginDDT_002 -->
-      <class name="com.framework.testCases.TC_LoginTest_001">
-        <methods>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.framework.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- My Test(failed) -->
 </suite> <!-- Failed suite [My Test Suite] -->
