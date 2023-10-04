@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -42,13 +43,15 @@ public class LetsStart extends BaseClass {
         
         lp.clickcont();
         logger.info("Moved to entered password");
+        Thread.sleep(2000);
         
         lp.enterpass(password);
         logger.info("Password Entered");
         Thread.sleep(2000);
         
-        lp.clickcont();
+        lp.clickcont1();
         logger.info("Logged In Succesfully");
+        Thread.sleep(2000);
         
         //Validate successfully Login
         String expectedTitle = "Eros Now - Watch & Download over 11,000+ HD Movies, TV Shows, Originals & Songs Online | Eros Now";
@@ -64,15 +67,33 @@ public class LetsStart extends BaseClass {
         }
         
         // Validate user profile or username
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+       /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement userProfile = driver.findElement(By.xpath("//*[@id=\"app\"]/header/ul/li[3]/div[2]/ul/li/div/div[1]/a/i"));
         wait.until(ExpectedConditions.visibilityOf(userProfile));
+        Thread.sleep(1000);
         Assert.assertTrue("User profile is not displayed", userProfile.isDisplayed());
         Actions action = new Actions(driver);
-        action.moveToElement(userProfile).perform();
-       
-        Thread.sleep(3000);
+        action.moveToElement(userProfile).perform();*/
         
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement userProfile = null;
+
+        try {
+            userProfile = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"app\"]/header/ul/li[3]/div[2]/ul/li/div/div[1]/a/i")));
+            Thread.sleep(1000);
+            Assert.assertTrue("User profile is not displayed", userProfile.isDisplayed());
+            Actions action = new Actions(driver);
+            action.moveToElement(userProfile).perform();
+        } catch (StaleElementReferenceException e) {
+            // Handle the stale element reference exception here
+            // You can add retry logic or perform alternative actions
+            // For example, you can re-locate the element and retry the action
+            userProfile = driver.findElement(By.xpath("//*[@id=\"app\"]/header/ul/li[3]/div[2]/ul/li/div/div[1]/a/i"));
+            Actions action = new Actions(driver);
+            action.moveToElement(userProfile).perform();
+        }
+
+       
         lp.clicklogout();
         logger.info("Logged Out Succesfully");
     }

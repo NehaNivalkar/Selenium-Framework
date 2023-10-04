@@ -32,7 +32,12 @@ public class LoginStart {
 	@CacheLookup
 	WebElement cont;
 	
-	@FindBy(xpath="//*[@id=\"app\"]/header/ul/li[3]/div[2]/ul/li/div/div[2]/ul/li[6]/span")
+	@FindBy(xpath="//*[@id=\"app\"]/section/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/button")
+	@CacheLookup
+	WebElement cont1;
+	
+	
+	@FindBy(xpath="//span[contains(text(),'Logout')]")
 	@CacheLookup
 	WebElement logout;
 	
@@ -55,6 +60,11 @@ public class LoginStart {
 	public void clickcont()
 	{
 		cont.click();
+	}
+	
+	public void clickcont1()
+	{
+		cont1.click();
 	}
     
 	public void clicklogout() {
