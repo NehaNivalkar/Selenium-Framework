@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-04T20:35:41 IST" name="My ErosNow Test Suite" finished-at="2023-10-04T20:36:08 IST" duration-ms="26798">
+  <suite started-at="2023-10-04T21:30:11 IST" name="My ErosNow Test Suite" finished-at="2023-10-04T21:31:01 IST" duration-ms="50023">
     <groups>
     </groups>
-    <test started-at="2023-10-04T20:35:41 IST" name="ErosNow Test" finished-at="2023-10-04T20:36:08 IST" duration-ms="26798">
+    <test started-at="2023-10-04T21:30:11 IST" name="ErosNow Test" finished-at="2023-10-04T21:31:01 IST" duration-ms="50023">
       <class name="com.ErosNow.testCases.LetsStart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.LetsStart@651aed93]" started-at="2023-10-04T20:35:42 IST" name="setup" finished-at="2023-10-04T20:35:49 IST" duration-ms="7776" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.LetsStart@651aed93]" started-at="2023-10-04T21:30:12 IST" name="setup" finished-at="2023-10-04T21:30:35 IST" duration-ms="23694" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.ErosNow.testCases.LetsStart@651aed93]" started-at="2023-10-04T20:35:49 IST" name="loginTest" finished-at="2023-10-04T20:36:07 IST" duration-ms="17934" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.ErosNow.testCases.LetsStart@651aed93]" started-at="2023-10-04T21:30:35 IST" name="loginTest" finished-at="2023-10-04T21:31:00 IST" duration-ms="25057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ErosNow.testCases.LetsStart@651aed93]" started-at="2023-10-04T20:36:07 IST" name="tearDown" finished-at="2023-10-04T20:36:08 IST" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ErosNow.testCases.LetsStart@651aed93]" started-at="2023-10-04T21:31:00 IST" name="tearDown" finished-at="2023-10-04T21:31:01 IST" duration-ms="743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
