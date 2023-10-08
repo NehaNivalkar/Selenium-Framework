@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.junit.AfterClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -66,9 +67,10 @@ public class BaseClass {
 	    }
 
 
-@AfterMethod
+@AfterClass
 public void tearDown() {
     driver.quit();
+    logger.info("WebDriver has been quit.");
 }
 
 public void captureScreen(WebDriver driver, String tname) throws IOException {

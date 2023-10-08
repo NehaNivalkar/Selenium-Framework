@@ -247,3 +247,446 @@
 [INFO ] 2023-10-04 21:30:50.670 [main] LetsStart - Logged In Succesfully
 [INFO ] 2023-10-04 21:30:52.710 [main] LetsStart - Correct Title
 [INFO ] 2023-10-04 21:31:00.958 [main] LetsStart - Logged Out Succesfully
+[ERROR] 2023-10-07 19:03:15.173 [main] LetsStart - Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/section/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div"}
+  (Session info: chrome=117.0.5938.134)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2dcda06c381c4c289ecff8ac18cf0850, findElement {using=xpath, value=//*[@id="app"]/section/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62960}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62960/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2dcda06c381c4c289ecff8ac18cf0850
+[ERROR] 2023-10-07 19:03:15.703 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id="app"]/section/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62960}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62960/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 2023-10-07 19:03:15.715 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id="app"]/section/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62960}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62960/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 2023-10-07 19:03:15.728 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id="app"]/section/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62960}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62960/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO ] 2023-10-07 19:03:15.751 [main] LetsStart - URL is opening
+[ERROR] 2023-10-07 19:03:17.760 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//button[contains(text(),'Let’s Start')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62960}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62960/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 2023-10-07 19:12:35.265 [main] LetsStart - Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='app']/section[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]"}
+  (Session info: chrome=117.0.5938.134)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d707b5c09fcb70768351771bd8a69b2, findElement {using=xpath, value=//body/div[@id='app']/section[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63313/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d707b5c09fcb70768351771bd8a69b2
+[ERROR] 2023-10-07 19:12:35.606 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//body/div[@id='app']/section[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63313/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 2023-10-07 19:12:35.617 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//body/div[@id='app']/section[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63313/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 2023-10-07 19:12:35.627 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//body/div[@id='app']/section[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63313/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO ] 2023-10-07 19:12:35.642 [main] LetsStart - URL is opening
+[ERROR] 2023-10-07 19:12:37.648 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//button[contains(text(),'Let’s Start')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63313/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO ] 2023-10-07 19:21:44.756 [main] LetsStart - URL is opening
+[ERROR] 2023-10-07 19:21:46.759 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//button[contains(text(),'Let’s Start')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63741}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63741/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO ] 2023-10-07 19:26:02.800 [main] LetsStart - URL is opening
+[ERROR] 2023-10-07 19:26:04.815 [main] LetsStart - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//button[contains(text(),'Let’s Start')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Neha\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63975}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63975/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO ] 2023-10-07 19:28:38.070 [main] LetsStart - URL is opening
+[ERROR] 2023-10-07 19:28:40.072 [main] LetsStart - Exception occurred: null
+[INFO ] 2023-10-07 19:30:35.116 [main] LetsStart - URL is opening
+[ERROR] 2023-10-07 19:30:37.130 [main] LetsStart - Exception occurred: null
+[INFO ] 2023-10-07 19:32:07.745 [main] LetsStart - URL is opening
+[ERROR] 2023-10-07 19:32:09.753 [main] LetsStart - Exception occurred: null
+[INFO ] 2023-10-07 19:33:02.462 [main] LetsStart - URL is opening
+[INFO ] 2023-10-07 19:38:33.948 [main] LetsStart - URL is opening
+[INFO ] 2023-10-07 19:39:42.557 [main] LetsStart - URL is opening
+[INFO ] 2023-10-07 19:39:44.716 [main] LetsStart - Clicked on Let's Start
+[INFO ] 2023-10-07 19:39:44.843 [main] LetsStart - Phone Number Entered
+[INFO ] 2023-10-07 19:42:48.919 [main] LetsStart - URL is opening
+[INFO ] 2023-10-07 19:42:51.063 [main] LetsStart - Clicked on Let's Start
+[INFO ] 2023-10-07 19:42:51.179 [main] LetsStart - Phone Number Entered
+[INFO ] 2023-10-07 19:42:53.351 [main] LetsStart - Moved to entered password
+[INFO ] 2023-10-07 19:42:56.060 [main] LetsStart - Password Entered
+[INFO ] 2023-10-07 19:42:58.190 [main] LetsStart - Logged In Succesfully
+[INFO ] 2023-10-07 19:43:00.231 [main] LetsStart - Correct Title
+[INFO ] 2023-10-07 19:43:06.733 [main] LetsStart - Logged Out Succesfully
+[INFO ] 2023-10-08 22:39:26.737 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 22:39:26.737 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 22:39:26.802 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 22:39:26.802 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 22:39:27.604 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 22:39:27.604 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 22:43:23.569 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 22:43:23.569 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 22:43:23.640 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 22:43:23.640 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 22:43:23.912 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 22:43:23.912 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 22:45:37.673 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 22:45:37.673 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 22:45:38.750 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 22:45:38.750 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 22:45:39.897 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 22:45:39.897 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 22:45:42.000 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 22:45:42.000 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 22:58:08.122 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 22:58:08.122 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 22:58:08.258 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 22:58:08.258 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 22:58:09.355 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 22:58:09.355 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 22:58:10.464 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 22:58:10.464 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 22:58:12.545 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 22:58:12.545 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 22:58:16.897 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 22:58:16.897 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 22:58:16.901 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 22:58:16.901 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 22:58:16.914 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 22:58:16.914 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 22:58:16.916 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 22:58:16.916 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 22:58:16.921 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 22:58:16.921 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:02:59.792 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:02:59.792 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:02:59.968 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:02:59.968 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:03:01.088 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:03:01.088 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:03:02.163 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:03:02.163 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:03:04.751 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:03:04.751 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:03:09.242 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:03:09.242 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:03:09.245 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:03:09.245 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:03:09.269 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:03:09.269 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:03:09.271 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:03:09.271 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:03:09.277 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:03:09.277 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:05:44.839 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:05:44.839 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:05:45.043 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:05:45.043 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:05:46.128 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:05:46.128 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:05:48.267 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:05:48.267 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:05:49.394 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:05:49.394 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:06:13.919 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:06:13.919 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:06:14.037 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:06:14.037 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:06:15.127 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:06:15.127 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:06:16.213 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:06:16.213 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:06:18.080 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:06:18.080 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:06:22.189 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:06:22.189 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:06:32.282 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:06:32.282 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:07:31.713 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:07:31.713 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:07:31.881 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:07:31.881 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:07:32.970 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:07:32.970 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:07:35.131 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:07:35.131 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:07:36.276 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:07:36.276 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:07:37.385 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:07:37.385 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:07:54.148 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:07:54.148 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:07:54.291 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:07:54.291 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:07:55.427 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:07:55.427 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:07:57.602 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:07:57.602 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:07:58.731 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:07:58.731 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:09:40.143 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:09:40.143 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:09:40.282 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:09:40.282 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:09:41.376 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:09:41.376 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:09:42.498 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:09:42.498 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:09:44.763 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:09:44.763 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:09:48.912 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:09:48.912 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:09:58.936 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:09:58.936 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:10:58.461 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:10:58.461 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:10:58.626 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:10:58.626 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:10:59.703 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:10:59.703 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:11:01.808 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:11:01.808 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:11:02.934 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:11:02.934 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:11:25.157 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:11:25.157 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:11:25.295 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:11:25.295 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:11:26.372 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:11:26.372 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:11:27.549 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:11:27.549 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:11:30.277 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:11:30.277 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:11:38.724 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:11:38.724 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:11:38.749 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:11:38.749 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:11:42.343 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:11:42.343 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:11:42.539 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:11:42.539 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:11:43.648 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:11:43.648 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:11:44.735 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:11:44.735 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:12:34.003 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:12:34.003 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:12:34.129 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:12:34.129 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:12:35.246 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:12:35.246 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:12:36.324 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:12:36.324 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:12:37.883 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:12:37.883 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:12:43.549 [main] ErosNow - Is User Profile Displayed (Before Assertion): true
+[INFO ] 2023-10-08 23:12:43.549 [main] ErosNow - Is User Profile Displayed (Before Assertion): true
+[INFO ] 2023-10-08 23:12:46.512 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:12:46.512 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:12:59.127 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:12:59.127 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:13:00.144 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:13:00.144 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:14:16.698 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:14:16.698 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:14:16.821 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:14:16.821 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:14:17.902 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:14:17.902 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:14:18.973 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:14:18.973 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:14:21.165 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:14:21.165 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:14:28.447 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:14:28.447 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:14:28.464 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:14:28.464 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:14:31.981 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:14:31.981 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:14:33.080 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:14:33.080 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:14:35.165 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:14:35.165 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:16:08.328 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:16:08.328 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:16:08.506 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:16:08.506 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:16:09.638 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:16:09.638 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:16:11.805 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:16:11.805 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:16:12.942 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:16:12.942 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:16:13.120 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:16:13.120 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:16:28.532 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:16:28.532 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:16:28.669 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:16:28.669 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:16:29.765 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:16:29.765 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:16:30.842 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:16:30.842 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:16:32.517 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:16:32.517 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:16:42.560 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:16:42.560 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:16:42.575 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:16:42.575 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:16:46.113 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:16:46.113 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:16:47.218 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:16:47.218 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:16:49.301 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:16:49.301 [main] ErosNow - Test data received - Username: nehanivalkar20@gmail.com, Password: Enter@123
+[INFO ] 2023-10-08 23:24:33.270 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:24:33.270 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:24:33.489 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:24:33.489 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:24:34.655 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:24:34.655 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:24:35.813 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:24:35.813 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:24:37.760 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:24:37.760 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:24:49.430 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:24:49.430 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:24:49.451 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:24:49.451 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:24:53.618 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:24:53.618 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:24:53.754 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:24:53.754 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:24:54.838 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:24:54.838 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:35:33.850 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:35:33.850 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:35:34.043 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:35:34.043 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:35:35.175 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:35:35.175 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:35:36.295 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:35:36.295 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:35:38.229 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:35:38.229 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:35:50.695 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:35:50.695 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:35:51.317 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:35:51.317 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:35:51.321 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:35:51.321 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:35:51.339 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:35:51.339 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:35:51.342 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:35:51.342 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:35:51.350 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:35:51.350 [main] ErosNow - WebDriver has been quit.
+[INFO ] 2023-10-08 23:36:42.864 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:36:42.864 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:36:43.069 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:36:43.069 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:36:44.214 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:36:44.214 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:36:46.423 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:36:46.423 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:36:47.529 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:36:47.529 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:36:48.550 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:36:48.550 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:37:06.776 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:37:06.776 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:37:06.988 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:37:06.988 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:37:08.243 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:37:08.243 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:37:09.411 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:37:09.411 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:37:11.100 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:37:11.100 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:37:26.555 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:37:26.555 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:37:26.577 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:37:26.577 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:37:31.326 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:37:31.326 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:37:31.457 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:37:31.457 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:37:32.557 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:37:32.557 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:40:43.952 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:40:43.952 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:40:44.138 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:40:44.138 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:40:45.287 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:40:45.287 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:40:46.435 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:40:46.435 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:40:48.481 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:40:48.481 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:40:57.513 [main] ErosNow - StaleElementReferenceException encountered, retrying...
+[INFO ] 2023-10-08 23:40:57.513 [main] ErosNow - StaleElementReferenceException encountered, retrying...
+[INFO ] 2023-10-08 23:41:00.859 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:41:00.859 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:41:00.879 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:41:00.879 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:41:07.059 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:41:07.059 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:41:08.198 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:41:08.198 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:41:09.669 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:41:09.669 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:41:11.564 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:41:11.564 [main] ErosNow - Password is provided
+[INFO ] 2023-10-08 23:41:20.681 [main] ErosNow - Is User Profile Displayed (Before Assertion): true
+[INFO ] 2023-10-08 23:41:20.681 [main] ErosNow - Is User Profile Displayed (Before Assertion): true
+[INFO ] 2023-10-08 23:41:24.018 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:41:24.018 [main] ErosNow - Logged Out Succesfully
+[INFO ] 2023-10-08 23:41:24.022 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:41:24.022 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:41:29.042 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:41:29.042 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:41:30.132 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:41:30.132 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:45:36.081 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:45:36.081 [main] ErosNow - Test data received - Username: 9594505207, Password: Enter@123
+[INFO ] 2023-10-08 23:45:36.305 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:45:36.305 [main] ErosNow - Clicked on Lets Start
+[INFO ] 2023-10-08 23:45:37.480 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:45:37.480 [main] ErosNow - Username is provided
+[INFO ] 2023-10-08 23:45:39.559 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:45:39.559 [main] ErosNow - Clicked on continue
+[INFO ] 2023-10-08 23:45:40.612 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:45:40.612 [main] ErosNow - Test data received - Username: 9820347924, Password: Enter@123
+[INFO ] 2023-10-08 23:45:40.627 [main] ErosNow - Test data received - Username: , Password: 
+[INFO ] 2023-10-08 23:45:40.627 [main] ErosNow - Test data received - Username: , Password: 

@@ -10,7 +10,8 @@
   <test name="ErosNow Test">
     <parameter name="browser" value="chrome" />
     <classes>
-        <class name="com.ErosNow.testCases.LetsStart" />
+      
+        <class name="com.ErosNow.testCases.Login_DDT"></class>
        
     </classes>
   </test>
