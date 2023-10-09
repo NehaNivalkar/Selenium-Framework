@@ -1,10 +1,10 @@
 package com.ErosNow.testCases;
 
 import java.io.IOException;
-import java.time.Duration;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+import java.time.Duration;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -23,15 +23,14 @@ import com.ErosNow.pageObjects.LoginStart;
 @Listeners(com.ErosNow.Utilities.Reporting.class)
 
 public class LetsStart extends BaseClass {
-	private static Logger logger = Logger.getLogger(LetsStart.class);
+	private static Logger logger = LogManager.getLogger(LetsStart.class);
     @Parameters("browser")
     @Test
     public void loginTest() throws IOException, InterruptedException {
  	   LoginStart lp = new LoginStart(driver);
 
-        System.out.println("Log4j properties file path: " + System.getProperty("user.dir") + "log4j.properties");
+        System.out.println("Log4j properties file path: " + System.getProperty("user.dir") + "log4j2.properties");
 
-        PropertyConfigurator.configure("log4j.properties"); 
         
         logger.info("URL is opening");
         
@@ -94,6 +93,9 @@ public class LetsStart extends BaseClass {
        
         lp.clicklogout();
         logger.info("Logged Out Succesfully");
+        
+        //Validation pending
+        //URL, Letsstart button
    
 }
 

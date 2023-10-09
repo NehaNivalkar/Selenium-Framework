@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="My ErosNow Test Suite">
+<suite name="My ErosNow Test Suite" parallel="none">
 
 <listeners>
 <listener class-name="com.ErosNow.Utilities.Reporting"/>
@@ -10,7 +10,7 @@
   <test name="ErosNow Test">
     <parameter name="browser" value="chrome" />
     <classes>
-      
+        <class name="com.ErosNow.testCases.LetsStart"></class>
         <class name="com.ErosNow.testCases.Login_DDT"></class>
        
     </classes>

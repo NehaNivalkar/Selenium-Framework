@@ -1,12 +1,12 @@
 package com.ErosNow.testCases;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+
 import org.junit.AfterClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -15,13 +15,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 import com.ErosNow.Utilities.ReadConfig;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger; 
 
 public class BaseClass {
 	
@@ -38,8 +40,7 @@ public class BaseClass {
 	    @Parameters("browser")
 	    @BeforeClass
 	    public void setup(String br) {
-	    	logger = Logger.getLogger("ErosNow");
-	        PropertyConfigurator.configure("C:\\Users\\Neha\\eclipse-workspace\\ErosNow\\log4j.properties");
+	    	logger = LogManager.getLogger("ErosNow");
 	        System.out.println("Current Directory: " + System.getProperty("user.dir"));
 
 	        extent = new ExtentReports();
@@ -66,11 +67,12 @@ public class BaseClass {
 	        driver.get(baseURL);
 	    }
 
-
 @AfterClass
 public void tearDown() {
-    driver.quit();
-    logger.info("WebDriver has been quit.");
+	if (driver != null) {
+        driver.quit();
+        logger.info("WebDriver has been quit.");
+    }
 }
 
 public void captureScreen(WebDriver driver, String tname) throws IOException {
