@@ -7,6 +7,12 @@
   <test thread-count="5" name="ErosNow Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.ErosNow.testCases.Login_DDT">
+        <methods>
+          <include name="LoginDDT" invocation-numbers="0 1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ErosNow.testCases.Login_DDT -->
       <class name="com.ErosNow.testCases.LetsStart">
         <methods>
           <include name="setup"/>

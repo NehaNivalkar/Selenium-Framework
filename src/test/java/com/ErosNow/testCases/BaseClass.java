@@ -2,6 +2,7 @@ package com.ErosNow.testCases;
 
 import java.io.File;
 
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -69,18 +70,11 @@ public class BaseClass {
 
 @AfterClass
 public void tearDown() {
+	
 	if (driver != null) {
         driver.quit();
         logger.info("WebDriver has been quit.");
     }
 }
 
-public void captureScreen(WebDriver driver, String tname) throws IOException {
-    TakesScreenshot ts = (TakesScreenshot) driver;
-    File source = ts.getScreenshotAs(OutputType.FILE);
-    String screenshotPath = System.getProperty("user.dir") + "/Screenshots/" + tname + ".png";
-    File target = new File(screenshotPath);
-    FileUtils.copyFile(source, target);
-    logger.info("Screenshot taken and saved at: " + screenshotPath);
-}
 }

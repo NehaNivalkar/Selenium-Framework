@@ -1,6 +1,5 @@
 package com.ErosNow.pageObjects;
 
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.WebElement;
@@ -16,9 +15,7 @@ public class LoginStart {
 		PageFactory.initElements(rdriver, this);
 	}
 	
-	@FindBy(xpath="//button[contains(text(),'Let’s Start')]")
-	@CacheLookup
-	WebElement letstart;
+	
 
 	
 	@FindBy(xpath="//body/div[@id='app']/section[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]")
@@ -37,24 +34,6 @@ public class LoginStart {
 	@CacheLookup
 	WebElement cont1;
 	
-	
-	@FindBy(xpath="//span[contains(text(),'Logout')]")
-	@CacheLookup
-	WebElement logout;
-	
-	
-	 public void clickletsstart() {
-	        int attempts = 0;
-	        while (attempts < 2) { // You can adjust the number of attempts as needed
-	            try {
-	                letstart.click();
-	                break; // If successful, exit the loop
-	            } catch (StaleElementReferenceException e) {
-	                // Element is stale, retry
-	            }
-	            attempts++;
-	        }
-	    }
 	
 	public void entercred(String cred)
 	{
@@ -76,9 +55,7 @@ public class LoginStart {
 		cont1.click();
 	}
     
-	public void clicklogout() {
-		logout.click();
-	}
+	
 	
 	
 	

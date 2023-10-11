@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-09T17:36:05 IST" name="My ErosNow Test Suite" finished-at="2023-10-09T17:38:08 IST" duration-ms="122854">
+  <suite started-at="2023-10-11T14:06:28 IST" name="My ErosNow Test Suite" finished-at="2023-10-11T14:07:49 IST" duration-ms="80575">
     <groups>
     </groups>
-    <test started-at="2023-10-09T17:36:05 IST" name="ErosNow Test" finished-at="2023-10-09T17:38:08 IST" duration-ms="122854">
+    <test started-at="2023-10-11T14:06:28 IST" name="ErosNow Test" finished-at="2023-10-11T14:07:49 IST" duration-ms="80575">
       <class name="com.ErosNow.testCases.LetsStart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.LetsStart@4d411036]" started-at="2023-10-09T17:36:06 IST" name="setup" finished-at="2023-10-09T17:36:25 IST" duration-ms="18887" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.LetsStart@560513ce]" started-at="2023-10-11T14:06:29 IST" name="setup" finished-at="2023-10-11T14:06:37 IST" duration-ms="8267" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,13 +18,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.ErosNow.testCases.LetsStart@4d411036]" started-at="2023-10-09T17:36:25 IST" name="loginTest" finished-at="2023-10-09T17:36:48 IST" duration-ms="23353" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.ErosNow.testCases.LetsStart@560513ce]" started-at="2023-10-11T14:06:37 IST" name="loginTest" finished-at="2023-10-11T14:06:56 IST" duration-ms="19292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- com.ErosNow.testCases.LetsStart -->
       <class name="com.ErosNow.testCases.Login_DDT">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@352c308]" started-at="2023-10-09T17:36:48 IST" name="setup" finished-at="2023-10-09T17:37:06 IST" duration-ms="17617" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@5dda6f9]" started-at="2023-10-11T14:06:56 IST" name="setup" finished-at="2023-10-11T14:07:12 IST" duration-ms="15551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@352c308]" started-at="2023-10-09T17:37:09 IST" name="LoginDDT" data-provider="LoginData1" finished-at="2023-10-09T17:37:34 IST" duration-ms="25060" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@5dda6f9]" started-at="2023-10-11T14:07:14 IST" name="LoginDDT" data-provider="LoginData1" finished-at="2023-10-11T14:07:34 IST" duration-ms="20688" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@352c308]" started-at="2023-10-09T17:37:34 IST" name="LoginDDT" data-provider="LoginData1" finished-at="2023-10-09T17:38:08 IST" duration-ms="34299" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@5dda6f9]" started-at="2023-10-11T14:07:34 IST" name="LoginDDT" data-provider="LoginData1" finished-at="2023-10-11T14:07:49 IST" duration-ms="14463" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -7,17 +7,18 @@ import org.apache.logging.log4j.Logger;
 import java.time.Duration;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.ErosNow.Utilities.capturescreen;
+import com.ErosNow.pageObjects.HomePage;
 import com.ErosNow.pageObjects.LoginStart;
 
 @Listeners(com.ErosNow.Utilities.Reporting.class)
@@ -28,14 +29,14 @@ public class LetsStart extends BaseClass {
     @Test
     public void loginTest() throws IOException, InterruptedException {
  	   LoginStart lp = new LoginStart(driver);
-
+ 	   HomePage hp = new HomePage(driver);
         System.out.println("Log4j properties file path: " + System.getProperty("user.dir") + "log4j2.properties");
 
         
         logger.info("URL is opening");
         
         Thread.sleep(2000);
-        lp.clickletsstart();
+        hp.clickletsstart();
         logger.info("Clicked on Let's Start");
         
         lp.entercred(cred);
@@ -63,7 +64,7 @@ public class LetsStart extends BaseClass {
             logger.info("Correct Title");
         }  else {
             logger.info("Incorrect Title");
-            captureScreen(driver, "Incorrect Title");
+            capturescreen.captureScreen(driver, "Incorrect Title");
             Assert.assertTrue("Incorrect Title: ", false);
         }
         
@@ -79,6 +80,7 @@ public class LetsStart extends BaseClass {
                 Assert.assertTrue("User profile is not displayed", userProfile.isDisplayed());
             } catch (AssertionError e) {
                 logger.error("User profile is not displayed.");
+                capturescreen.captureScreen(driver, "User profile is not Displayed");
                 throw e; // Re-throw the exception to mark the test as failed
             }
             Actions action = new Actions(driver);
@@ -91,53 +93,35 @@ public class LetsStart extends BaseClass {
         }
 
        
-        lp.clicklogout();
-        logger.info("Logged Out Succesfully");
-        
-        //Validation pending
-        //URL, Letsstart button
+        logout();
    
 }
-
+    
+    private void logout() {
+	    HomePage hp = new HomePage(driver);
+	   
+	    hp.clicklogout();
+	    logger.info("Logged Out Successfully");
+	    //Validate logout
+	    // Wait for the URL to match
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    boolean isURLMatching=wait.until(ExpectedConditions.urlToBe("https://erosnow.com/"));
+	    if (isURLMatching) {
+	        System.out.println("URL matches the expected URL: https://erosnow.com/");
+	        logger.info("URL matches the expected URL: https://erosnow.com/");
+	    } else {
+	        System.out.println("URL does not match the expected URL.");
+	        logger.error("URL does not match the expected URL.");
+	    }
+	    // Wait for the "Let’s Start" button to be visible
+	    WebElement letsStartButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Let’s Start')]")));
+	    
+	    if (letsStartButton.isDisplayed()) {
+	        logger.info("Let's Start button is visible after logout");
+	    } else {
+	        logger.error("Let's Start button is not visible after logout");
+	        Assert.fail("Let's Start button is not visible after logout");
+	    }
 }
-    
-  /* @DataProvider(name = "credentials")
-    public Object[][] credentialsProvider() {
-        return new Object[][] {
-            {"9594505207", "Enter@123"},
-            {"6752", ""},
-            {"nehanivalkar20", "Enter@123"},
-            {"", "Enter@123"},
-        };
-    } 
-    
-   
-    
-    @Test(dataProvider = "credentials")
-    public void loginFailureTest(String username, String password) throws IOException, InterruptedException {
-       // try {
-        	 
-            // Your login failure logic here using 'username' and 'password' parameters
-            lp.entercred(username);
-            lp.clickcont();
-            lp.enterpass(password);
-            lp.clickcont1(); 
-            
-            
-          /*  WebElement errorMessage = driver.findElement(By.xpath("//*[@id=\"app\"]/section/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div"));
-            String expectedErrorMessage = "Mobile number is not valid.";
-            String actualErrorMessage = errorMessage.getText();
-            Assert.assertEquals(actualErrorMessage, expectedErrorMessage);
-            logger.info("Login failure for user: " + username);
-        } catch (NoSuchElementException e) {
-            // Handle the NoSuchElementException and log it
-            logger.error("Element not found: " + e.getMessage());
-        } catch (Exception e) {
-            // Handle other exceptions and log them
-            logger.error("Exception occurred: " + e.getMessage());
-        }*/
-    
-    
-    
-    
-
+}
+	
