@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-11T14:06:28 IST" name="My ErosNow Test Suite" finished-at="2023-10-11T14:07:49 IST" duration-ms="80575">
+  <suite started-at="2023-10-17T12:51:35 IST" name="My ErosNow Test Suite" finished-at="2023-10-17T12:51:55 IST" duration-ms="20041">
     <groups>
     </groups>
-    <test started-at="2023-10-11T14:06:28 IST" name="ErosNow Test" finished-at="2023-10-11T14:07:49 IST" duration-ms="80575">
-      <class name="com.ErosNow.testCases.LetsStart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.LetsStart@560513ce]" started-at="2023-10-11T14:06:29 IST" name="setup" finished-at="2023-10-11T14:06:37 IST" duration-ms="8267" status="PASS">
+    <test started-at="2023-10-17T12:51:35 IST" name="ErosNow Test" finished-at="2023-10-17T12:51:55 IST" duration-ms="20041">
+      <class name="com.ErosNow.testCases.InvalidScenarios">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.InvalidScenarios@60099951]" started-at="2023-10-17T12:51:36 IST" name="setup" finished-at="2023-10-17T12:51:51 IST" duration-ms="15403" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,56 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.ErosNow.testCases.LetsStart@560513ce]" started-at="2023-10-11T14:06:37 IST" name="loginTest" finished-at="2023-10-11T14:06:56 IST" duration-ms="19292" status="PASS">
+        <test-method signature="testInvalidUsername()[pri:0, instance:com.ErosNow.testCases.InvalidScenarios@60099951]" started-at="2023-10-17T12:51:51 IST" name="testInvalidUsername" finished-at="2023-10-17T12:51:55 IST" duration-ms="4107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.ErosNow.testCases.LetsStart -->
-      <class name="com.ErosNow.testCases.Login_DDT">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@5dda6f9]" started-at="2023-10-11T14:06:56 IST" name="setup" finished-at="2023-10-11T14:07:12 IST" duration-ms="15551" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@5dda6f9]" started-at="2023-10-11T14:07:14 IST" name="LoginDDT" data-provider="LoginData1" finished-at="2023-10-11T14:07:34 IST" duration-ms="20688" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9594505207]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Enter@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.ErosNow.testCases.Login_DDT@5dda6f9]" started-at="2023-10-11T14:07:34 IST" name="LoginDDT" data-provider="LoginData1" finished-at="2023-10-11T14:07:49 IST" duration-ms="14463" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9820347924]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Enter@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDT -->
-      </class> <!-- com.ErosNow.testCases.Login_DDT -->
+        </test-method> <!-- testInvalidUsername -->
+      </class> <!-- com.ErosNow.testCases.InvalidScenarios -->
     </test> <!-- ErosNow Test -->
   </suite> <!-- My ErosNow Test Suite -->
 </testng-results>

@@ -17,6 +17,7 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.ErosNow.Utilities.capturescreen;
 
 public class Reporting extends TestListenerAdapter {
 	public ExtentSparkReporter htmlReporter;
@@ -58,9 +59,23 @@ public class Reporting extends TestListenerAdapter {
 		//logger.info("URL is opening <br>"//
 	         //   + "Login with Mobile mobile button is clickable <br>"
 	         //   + "Entered Phone Number <br>"
-	         //   + "Clicked on Next Button\");                                                                                          ");
+	         //   + "Clicked on Next Button\");                                                                                         
 
 		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN));
+		String screenshotPath1 = System.getProperty("user.dir") + File.separator + "Screenshots" + File.separator +tr.getName()  + ".png";
+		System.out.println("Screenshot Path: " + screenshotPath1);
+		try {
+		    // Capture and attach screenshot
+		    File f = new File(screenshotPath1);
+		    if (f.exists()) {
+		        logger.pass("Screenshot is below:", MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath1).build());
+		    } else {
+		        logger.info("Screenshot file not found at path: " + screenshotPath1);
+	
+		    }
+		} catch (Exception e) {
+		    logger.pass("Failed to capture and attach screenshot: " + e.getMessage());
+		}
 
 
 	}
@@ -69,11 +84,18 @@ public class Reporting extends TestListenerAdapter {
 	    logger = extent.createTest(tr.getName());
 	    logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
 
-	    String screenshotPath1 = System.getProperty("user.dir") + "/Screenshots/" + tr.getName() + ".png";
+	    String screenshotPath1 = System.getProperty("user.dir") + File.separator + "Screenshots" + File.separator + tr.getName() + ".png";
+	    try {
 	    File f = new File(screenshotPath1);
 	    if (f.exists()) {
 	        logger.fail("Screenshot is below:", MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath1).build());
+	    }else {
+	        logger.info("Screenshot file not found at path: " + screenshotPath1);
+	    	
 	    }
+	    }catch (Exception e) {
+		    logger.fail("Failed to capture and attach screenshot: " + e.getMessage());
+		}
 	}
 
 	 public void onTestSkipped(ITestResult tr)

@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="extent-config1.xsd"?>
 <extentreports>
     <configuration>
-        <!-- report theme -->
-        <!-- standard, dark -->
-        <theme>standard</theme>
-    
-        <!-- document encoding -->
-        <!-- defaults to UTF-8 -->
+        <!-- Report theme (standard, dark) -->
+        <theme>DARK</theme>
+
+        <!-- Document encoding (defaults to UTF-8) -->
         <encoding>UTF-8</encoding>
-        
-        <!-- protocol for script and stylesheets -->
-        <!-- defaults to https -->
+
+        <!-- Protocol for script and stylesheets (defaults to https) -->
         <protocol>https</protocol>
-        
-        <!-- title of the document -->
-        <documentTitle>Extent</documentTitle>
-        
-        <!-- report name - displayed at top-nav -->
-        <reportName>Automation Report</reportName>
-        
-        <!-- location of charts in the test view -->
-        <!-- top, bottom -->
+
+        <!-- Title of the document -->
+        <documentTitle>Automation Test Report</documentTitle>
+
+        <!-- Report name (displayed at top-nav) -->
+        <reportName>Test Report</reportName>
+
+        <!-- Location of charts in the test view (top, bottom) -->
         <testViewChartLocation>bottom</testViewChartLocation>
-        
-        <!-- custom javascript -->
+
+        <!-- Custom JavaScript -->
         <scripts>
             <![CDATA[
                 $(document).ready(function() {
-                    
+                    // Your custom JavaScript here
                 });
             ]]>
         </scripts>
-        
-        <!-- custom styles -->
+
+        <!-- Custom styles -->
         <styles>
             <![CDATA[
-                
+                /* Your custom CSS styles here */
             ]]>
         </styles>
+        
+        <!-- Configuration for attaching screenshots -->
+        <screenshots>
+            <local>
+                <destination>C:/Users/Neha/eclipse-workspace/ErosNow/Screenshots</destination>
+            </local>
+        </screenshots>
+        
+        <screenshotCapture>
+        <imageTypes>png</imageTypes> <!-- Include the file types of your screenshots -->
+    </screenshotCapture>
     </configuration>
 </extentreports>

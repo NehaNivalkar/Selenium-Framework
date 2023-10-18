@@ -33,6 +33,8 @@ public class BaseClass {
 	    public String baseURL = readconfig.getApplicationURL();
 	    public String cred = readconfig.entercred();
 	    public String password = readconfig.enterpass();
+	    public String invalidusername = readconfig.invalidusername();
+	    public String invalidpassword = readconfig.invalidpassword();
 	    public static WebDriver driver;
 	    public static ExtentReports extent;
 	    public static ExtentTest test;

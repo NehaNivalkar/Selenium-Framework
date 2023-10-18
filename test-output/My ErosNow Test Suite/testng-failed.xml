@@ -7,18 +7,12 @@
   <test thread-count="5" name="ErosNow Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ErosNow.testCases.Login_DDT">
-        <methods>
-          <include name="LoginDDT" invocation-numbers="0 1"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.ErosNow.testCases.Login_DDT -->
-      <class name="com.ErosNow.testCases.LetsStart">
+      <class name="com.ErosNow.testCases.InvalidScenarios">
         <methods>
           <include name="setup"/>
-          <include name="loginTest"/>
+          <include name="testInvalidUsername"/>
         </methods>
-      </class> <!-- com.ErosNow.testCases.LetsStart -->
+      </class> <!-- com.ErosNow.testCases.InvalidScenarios -->
     </classes>
   </test> <!-- ErosNow Test(failed) -->
 </suite> <!-- Failed suite [My ErosNow Test Suite] -->

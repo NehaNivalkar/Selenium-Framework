@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ErosNow.testCases.Login_DDT">
+      <class name="com.ErosNow.testCases.InvalidScenarios">
         <methods>
-          <include name="LoginDDT"/>
           <include name="setup"/>
+          <include name="testInvalidUsername"/>
         </methods>
-      </class> <!-- com.ErosNow.testCases.Login_DDT -->
+      </class> <!-- com.ErosNow.testCases.InvalidScenarios -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

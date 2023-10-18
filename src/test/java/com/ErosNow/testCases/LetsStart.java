@@ -8,7 +8,6 @@ import java.time.Duration;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -35,25 +34,25 @@ public class LetsStart extends BaseClass {
         
         logger.info("URL is opening");
         
-        Thread.sleep(2000);
+        
         hp.clickletsstart();
         logger.info("Clicked on Let's Start");
         
         lp.entercred(cred);
         logger.info("Phone Number Entered");
-        Thread.sleep(2000);
+       
         
         lp.clickcont();
         logger.info("Moved to entered password");
-        Thread.sleep(2000);
+        
         
         lp.enterpass(password);
         logger.info("Password Entered");
-        Thread.sleep(2000);
+       
         
         lp.clickcont1();
         logger.info("Logged In Succesfully");
-        Thread.sleep(2000);
+        
         
         //Validate successfully Login
         String expectedTitle = "Eros Now - Watch & Download over 11,000+ HD Movies, TV Shows, Originals & Songs Online | Eros Now";
@@ -74,7 +73,7 @@ public class LetsStart extends BaseClass {
 
         try {
             userProfile = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"app\"]/header/ul/li[3]/div[2]/ul/li/div/div[1]/a/i")));
-            Thread.sleep(1000);
+            //Thread.sleep(1000);
             logger.info("Is User Profile Displayed (Before Assertion): " + userProfile.isDisplayed());
             try {
                 Assert.assertTrue("User profile is not displayed", userProfile.isDisplayed());

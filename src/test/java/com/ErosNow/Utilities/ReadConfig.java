@@ -55,4 +55,16 @@ public class ReadConfig {
 			return password;
 		}
 		
+		public String invalidusername()
+		{
+			String invalidusername = pro.getProperty("invalidusername");
+			return invalidusername;
+		}
+		
+		public String invalidpassword()
+		{
+			String invalidpassword = pro.getProperty("invalidpassword");
+			return invalidpassword;
+		}
+		
 }
